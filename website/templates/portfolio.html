@@ -5,12 +5,12 @@
          esse vel qui, ullam iste exercitationem architecto repudiandae unde rerum
           pariatur reiciendis ratione!
         </p>
-    <div class="container text-center ps-0">
+    <div class="container ps-0">  <!-- Quité text-center porque no se nota la dif -->
         <div class="row">
             <div class="col-4">
-                <div class="card border-0 w-75" style="width: 18rem;">
+                <div class="card border-0 w-75" style="width: 18rem;"> <!-- Quité w-75, choca con 18rem, puse border-5 para ver cómo funciona y darle utilidad a card, sin card, no hay border -->
                     <img src="./assets/img/big-project-image.png" class="card-img-top" alt="...">
-                    <div class="card-body text-start ps-0">
+                    <div class="card-body text-end ps-0"> <!-- Cambié a text-end-->
                         <h5 class="card-title text-primary">Project Name</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
@@ -21,11 +21,11 @@
             <div class="col-4">
                 <div class="card border-0 w-75" style="width: 18rem;">
                     <img src="./assets/img/big-project-image.png" class="card-img-top" alt="...">
-                    <div class="card-body text-start ps-0">
-                        <h5 class="card-title text-primary">Project Name</h5>
+                    <div class="card-body text-start ps-0"> <!-- ps-5 pa ver la dif, pero lo quite porque agrega altura-->
+                        <h5 class="card-title text-warning">Project Name</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
-                            card’s content.</p>
+                            card’s content.</p> <!-- Al quitar card-text aumenta el padding interno -->
                     </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@
                 <div class="card border-0 w-75" style="width: 18rem;">
                     <img src="./assets/img/big-project-image.png" class="card-img-top" alt="...">
                     <div class="card-body text-start ps-0">
-                        <h5 class="card-title text-primary">Project Name</h5>
+                        <h5 class="card-title text-danger">Project Name</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card’s content.</p>
